@@ -32,7 +32,7 @@ class MessagesBuilder extends Component {
     };
 
     dismissHandler = (event) => {
-        const parent = event.target.parentNode.parentNode.className += ' d-none';
+        event.target.parentNode.parentNode.className += ' d-none';
     };
 
     makeModalBtns = () => {
